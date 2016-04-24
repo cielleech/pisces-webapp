@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-public class IndexController {
+public class MainController {
     
     /**
      * 
@@ -20,11 +20,17 @@ public class IndexController {
      * @return
      */
     @RequestMapping(value = { "/index" })
-    public String index(HttpServletRequest request, HttpSession session) {
-        session.setAttribute("name", "lina");
+    public String index(HttpServletRequest request) {
+        request.getSession().setAttribute("name", "lina");
         return "Hello world";
     }
-    
+
+    /**
+     *
+     * @param request
+     * @param session
+     * @return
+     */
     @RequestMapping(value = { "/login" })
     public String login(HttpServletRequest request, HttpSession session) {
         String name = (String) session.getAttribute("name");

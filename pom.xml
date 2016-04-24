@@ -11,13 +11,14 @@
   <properties>
     <springframework.version>4.0.3.RELEASE</springframework.version>
     <servlet.version>3.0.1</servlet.version>
+    <netty.version>4.0.36.Final</netty.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -35,6 +36,16 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>${servlet.version}</version>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-all</artifactId>
+      <version>${netty.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.21</version>
     </dependency>
   </dependencies>
   <build>
