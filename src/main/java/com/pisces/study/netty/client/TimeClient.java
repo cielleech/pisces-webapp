@@ -13,6 +13,12 @@ import io.netty.channel.socket.nio.NioSocketChannel;
  * Created by cielleech on 2016/4/24.
  */
 public class TimeClient {
+    /**
+     * 
+     * @param port
+     * @param host
+     * @throws Exception
+     */
     public void connect(int port, String host) throws Exception {
         EventLoopGroup group = new NioEventLoopGroup();
 

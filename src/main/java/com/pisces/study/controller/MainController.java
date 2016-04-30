@@ -5,6 +5,7 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 
@@ -20,9 +21,10 @@ public class MainController {
      * @return
      */
     @RequestMapping(value = { "/index" })
-    public String index(HttpServletRequest request) {
-        request.getSession().setAttribute("name", "lina");
-        return "Hello world";
+    public ModelAndView index(HttpServletRequest request) {
+        return new ModelAndView("index.jsp");
+//        request.getSession().setAttribute("name", "lina");
+//        return "Hello world";
     }
 
     /**

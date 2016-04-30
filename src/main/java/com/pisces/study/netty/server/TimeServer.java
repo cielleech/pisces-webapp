@@ -13,6 +13,11 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * Created by cielleech on 2016/4/24.
  */
 public class TimeServer {
+    /**
+     * 
+     * @param port
+     * @throws Exception
+     */
     public void bind(int port) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
