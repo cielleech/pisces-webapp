@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @RestController
 public class MainController {
-    
+
     /**
      * 
      * @param request
@@ -23,8 +23,8 @@ public class MainController {
     @RequestMapping(value = { "/index" })
     public ModelAndView index(HttpServletRequest request) {
         return new ModelAndView("index.jsp");
-//        request.getSession().setAttribute("name", "lina");
-//        return "Hello world";
+        //        request.getSession().setAttribute("name", "lina");
+        //        return "Hello world";
     }
 
     /**

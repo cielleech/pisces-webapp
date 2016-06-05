@@ -32,6 +32,16 @@
       <version>${springframework.version}</version>
     </dependency>
     <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>${springframework.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>${springframework.version}</version>
+    </dependency>
+    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
       <version>${servlet.version}</version>
@@ -48,12 +58,37 @@
       <version>1.7.21</version>
     </dependency>
     <dependency>
-    <groupId>com.typesafe.akka</groupId>
-    <artifactId>akka-actor_2.11</artifactId>
-    <version>2.4.6</version>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-actor_2.11</artifactId>
+      <version>2.4.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
     </dependency>
   </dependencies>
   <build>
     <finalName>pisces-webapp</finalName>
   </build>
+
+  <repositories>
+    <repository>
+      <id>mvn release</id>
+      <name>MVN release Repository</name>
+      <url>http://mvn1.tools.vipshop.com/nexus/content/repositories/releases</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+
+    <repository>
+      <id>mercury snapshot</id>
+      <name>Mercury Snapshots Repository</name>
+      <url>http://mvn1.tools.vipshop.com/nexus/content/groups/public</url>
+    </repository>
+  </repositories>
 </project>
