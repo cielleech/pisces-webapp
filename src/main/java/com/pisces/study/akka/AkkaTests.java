@@ -11,6 +11,10 @@ import akka.actor.Props;
  */
 public class AkkaTests {
 
+	/**
+	 * 
+	 * @param args
+	 */
     public static void main(String[] args) {
         ActorSystem system = ActorSystem.create("hello");
         
