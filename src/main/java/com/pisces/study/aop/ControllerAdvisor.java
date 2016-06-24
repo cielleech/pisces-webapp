@@ -1,5 +1,7 @@
 package com.pisces.study.aop;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,6 +11,13 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class ControllerAdvisor {
-    public void test() {
+    private static final Logger logger = LoggerFactory.getLogger(ControllerAdvisor.class);
+    
+    public void before() {
+
+    }
+    
+    public static void main(String[] args) {
+        logger.info("this is a test");
     }
 }

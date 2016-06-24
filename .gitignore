@@ -3,5 +3,5 @@
 /target/
 /.classpath
 /.project
-pattern
 .settings/
+*.DS_Store

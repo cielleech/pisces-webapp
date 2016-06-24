@@ -85,10 +85,10 @@
       </snapshots>
     </repository>
 
-    <repository>
-      <id>mercury snapshot</id>
-      <name>Mercury Snapshots Repository</name>
-      <url>http://mvn1.tools.vipshop.com/nexus/content/groups/public</url>
-    </repository>
+<!--     <repository> -->
+<!--       <id>mercury snapshot</id> -->
+<!--       <name>Mercury Snapshots Repository</name> -->
+<!--       <url>http://mvn1.tools.vipshop.com/nexus/content/groups/public</url> -->
+<!--     </repository> -->
   </repositories>
 </project>
