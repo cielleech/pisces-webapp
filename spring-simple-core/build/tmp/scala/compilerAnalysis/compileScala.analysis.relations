@@ -1,0 +1,16 @@
+products:
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\aop\ControllerAdvisor.java -> E:\cielleech\work\projects\spring-simple\spring-simple-core\build\classes\main\com\pisces\study\aop\ControllerAdvisor.class
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java -> E:\cielleech\work\projects\spring-simple\spring-simple-core\build\classes\main\com\pisces\study\controller\MainController.class
+binary dependencies:
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\aop\ControllerAdvisor.java -> D:\apps\Java\jdk1.8.0_77\jre\lib\rt.jar
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\aop\ControllerAdvisor.java -> E:\cielleech\other\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.12\8e20852d05222dc286bf1c71d78d0531e177c317\slf4j-api-1.7.12.jar
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java -> D:\apps\Java\jdk1.8.0_77\jre\lib\rt.jar
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java -> E:\cielleech\other\.gradle\caches\modules-2\files-2.1\javax.servlet\servlet-api\2.5\5959582d97d8b61f4d154ca9e495aafd16726e34\servlet-api-2.5.jar
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java -> E:\cielleech\other\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\4.3.5.RELEASE\c624659217edab07d8279fb0f90462136f089220\spring-webmvc-4.3.5.RELEASE.jar
+source dependencies:
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\aop\ControllerAdvisor.java -> E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\aop\ControllerAdvisor.java
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java -> E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java
+external dependencies:
+class names:
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\aop\ControllerAdvisor.java -> com.pisces.study.aop.ControllerAdvisor
+   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\main\java\com\pisces\study\controller\MainController.java -> com.pisces.study.controller.MainController

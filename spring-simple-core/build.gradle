@@ -1,0 +1,35 @@
+apply plugin: 'scala'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+sourceSets {
+  main {
+    scala {
+      srcDirs = ['src/main/scala', 'src/main/java']
+    }
+    java {
+      srcDirs = []
+    }
+    resources {
+      srcDirs = ['src/main/resources']
+    }
+  }
+  
+  test {
+    scala {
+      srcDirs = ['src/test/scala', 'src/test/java']
+    }
+    java {
+      srcDirs = []
+    }
+  }
+}
+
+dependencies {
+  compile 'org.apache.logging.log4j:log4j-slf4j-impl'
+  compile 'org.springframework:spring-webmvc'
+  compile 'org.scala-lang:scala-library'
+  providedCompile 'javax.servlet:servlet-api'
+  runtime 'javax.servlet:jstl'
+  testCompile 'junit:junit'
+}
