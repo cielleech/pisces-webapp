@@ -1,9 +1,0 @@
-products:
-   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\test\java\com\pisces\study\common\CommonTests.java -> E:\cielleech\work\projects\spring-simple\spring-simple-core\build\classes\test\com\pisces\study\common\CommonTests.class
-binary dependencies:
-   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\test\java\com\pisces\study\common\CommonTests.java -> D:\apps\Java\jdk1.8.0_77\jre\lib\rt.jar
-source dependencies:
-   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\test\java\com\pisces\study\common\CommonTests.java -> E:\cielleech\work\projects\spring-simple\spring-simple-core\src\test\java\com\pisces\study\common\CommonTests.java
-external dependencies:
-class names:
-   E:\cielleech\work\projects\spring-simple\spring-simple-core\src\test\java\com\pisces\study\common\CommonTests.java -> com.pisces.study.common.CommonTests
