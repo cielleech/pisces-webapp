@@ -5,17 +5,17 @@
   id="WebApp_ID" version="2.5">
 
   <servlet>
-    <servlet-name>pisces-servlet</servlet-name>
+    <servlet-name>vox-servlet</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:config/spring/pisces-servlet.xml</param-value>
+      <param-value>classpath:config/spring/vox-servlet.xml</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>pisces-servlet</servlet-name>
+    <servlet-name>vox-servlet</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
