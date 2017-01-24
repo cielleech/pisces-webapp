@@ -2,11 +2,12 @@
 .idea
 /target/
 /.classpath
-/.project
 .settings/
 *.DS_Store
 /bin/ 
 /.gradle/
 .cache-main
 *~
+/build
+.project
 .classpath
