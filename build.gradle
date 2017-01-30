@@ -7,6 +7,10 @@ buildscript {
   }
 }
 
+ext {
+  SPRING_VERSION='4.3.5.RELEASE'
+}
+
 subprojects {
   apply plugin: 'maven'
   apply plugin: 'io.spring.dependency-management'
@@ -17,9 +21,15 @@ subprojects {
       dependency 'org.springframework:spring-webmvc:4.3.5.RELEASE'
       dependency 'org.springframework:spring-aop:4.3.5.RELEASE'
       dependency 'org.springframework:spring-aspects:4.3.5.RELEASE'
+      dependency 'org.springframework:spring-orm:4.3.5.RELEASE'
+      dependency 'org.springframework:spring-test:4.3.5.RELEASE'
+      dependency 'mysql:mysql-connector-java:5.1.18'
+      dependency 'commons-dbcp:commons-dbcp:1.2.2'
+      dependency 'org.mybatis:mybatis:3.4.2'
+      dependency 'org.mybatis:mybatis-spring:1.3.1'
       dependency 'javax.servlet:servlet-api:2.5'
       dependency 'javax.servlet:jstl:1.2'
-      dependency 'junit:junit:4.11'
+      dependency 'junit:junit:4.12'
       dependency 'org.scala-lang:scala-library:2.10.6'
     }
   }
