@@ -6,7 +6,8 @@
 *.DS_Store
 /bin/ 
 /.gradle/
-.cache-main
+*.cache-main
+*.cache-tests
 *~
 /build
 .project

@@ -9,27 +9,6 @@
                         http://www.springframework.org/schema/context/spring-context-4.0.xsd  
                         http://www.springframework.org/schema/mvc  
                         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
-  <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
-    destroy-method="close">
-    <property name="driverClassName" value="${mybatis.driver}" />
-    <property name="url" value="${mybatis.url}" />
-    <property name="username" value="${mybatis.username}" />
-    <property name="password" value="${mybatis.password}" />
-    <!-- 
-    <property name="initialSize" value="${initialSize}" />
-    <property name="maxActive" value="${maxActive}" />
-    <property name="maxIdle" value="${maxIdle}" />
-    <property name="minIdle" value="${minIdle}" />
-    <property name="validationQuery" value="${validationQuery}" />
-    <property name="timeBetweenEvictionRunsMills" value="${timeBetweenEvictionRunsMills}" />
-    <property name="minEvictableIdleMills" value="${minEvictableIdleMils}" />
-    <property name="numTestsPerEvictionRun" value="${numTestsPerEvictionRun}" />
-    <property name="testWhileIdle" value="${testWhileIdle}" />
-    <property name="testOnBorrow" value="${testOnBorrow}" />
-    <property name="testOnReturn" value="${testOnReturn}" />
-    -->
-  </bean>
-  
   <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" >
     <property name="dataSource" ref="dataSource" />
     <property name="mapperLocations" value="classpath:mybatis/*.xml" />
