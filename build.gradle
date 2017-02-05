@@ -25,6 +25,9 @@ subprojects {
       dependency 'org.springframework:spring-test:4.3.5.RELEASE'
       // hibernate core
       dependency 'org.hibernate:hibernate-core:4.3.6.Final'
+      // redis
+      dependency 'org.springframework.data:spring-data-redis:1.4.1.RELEASE'
+      dependency 'redis.clients:jedis:2.6.0'
       dependency 'mysql:mysql-connector-java:5.1.30'
       dependency 'commons-dbcp:commons-dbcp:1.2.2'
       dependency 'org.mybatis:mybatis:3.4.2'

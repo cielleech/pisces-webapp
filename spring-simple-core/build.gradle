@@ -37,6 +37,8 @@ dependencies {
   compile 'commons-dbcp:commons-dbcp'
   compile 'org.scala-lang:scala-library'
   compile 'org.mybatis:mybatis'
+  compile 'org.springframework.data:spring-data-redis'
+  compile 'redis.clients:jedis'
   providedCompile 'javax.servlet:servlet-api'
   runtime 'javax.servlet:jstl'
   testCompile 'org.springframework:spring-test'
