@@ -35,6 +35,10 @@ dependencies {
   compile 'org.mybatis:mybatis-spring'
   compile 'mysql:mysql-connector-java'
   compile 'commons-dbcp:commons-dbcp'
+  // hbase
+  compile 'org.springframework.data:spring-data-hadoop'
+  compile 'org.apache.hbase:hbase-client'
+
   compile 'org.scala-lang:scala-library'
   compile 'org.mybatis:mybatis'
   compile 'org.springframework.data:spring-data-redis'
